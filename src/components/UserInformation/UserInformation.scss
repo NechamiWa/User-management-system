@@ -1,0 +1,57 @@
+.UserInformation {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .return-link {
+        color: #557a95;
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .return-link:hover {
+        color: #405c70;
+    }
+
+    .user-details {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 1px 0px 20px 10px rgba(0, 0, 0, 0.1);
+        color: #333;
+        max-width: 500px;
+        width: 100%;
+
+    }
+
+    h5 {
+        font-weight: bold;
+        color: #557a95;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    button {
+        background-color: #557a95;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #405c70;
+    }
+}

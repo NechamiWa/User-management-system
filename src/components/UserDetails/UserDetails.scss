@@ -1,0 +1,161 @@
+.UserDetails {
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+    *,
+    *:after,
+    *:before {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: "DM Sans", sans-serif;
+        line-height: 1.5;
+        background-color: #fff;
+        padding: 0 2rem;
+    }
+
+    img {
+        max-width: 100%;
+        display: block;
+    }
+
+    input {
+        appearance: none;
+        border-radius: 0;
+    }
+
+    .card {
+        margin: 2rem auto;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        max-width: 425px;
+        background-color: #FFF;
+        border: 1px solid #557A95;
+        box-shadow: 0 10px 20px 0 rgba(128, 128, 128, .25);
+        padding: .75rem;
+    }
+
+    .card-image {
+        border-radius: 8px;
+        overflow: hidden;
+        padding-bottom: 35%;
+        padding-top: inherit;
+    }
+
+    .card-heading {
+        position: absolute;
+        left: 10%;
+        top: 15%;
+        right: 10%;
+        font-size: 1.75rem;
+        font-weight: 700;
+        line-height: 1.222;
+        text-align: center;
+        color: #557A95;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-heading small {
+        display: block;
+        font-size: .75em;
+        font-weight: 400;
+        margin-top: .25em;
+        color: #5D5C61;
+    }
+
+    .card-form {
+        padding: 2rem 1rem 0;
+    }
+
+    .input {
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+        padding-top: 1.5rem;
+
+        &+.input {
+            margin-top: 1.5rem;
+        }
+
+        small {
+            display: block;
+            color: #5D5C61;
+            font-size: 0.75rem;
+            margin-top: 0.25rem;
+        }
+    }
+
+    .input-label {
+        color: #808080;
+        position: absolute;
+        top: 1.5rem;
+        transition: .25s ease;
+    }
+
+    .input-field {
+        border: 0;
+        z-index: 1;
+        background-color: transparent;
+        border-bottom: 2px solid #7395AE;
+        font: inherit;
+        font-size: 1.125rem;
+        padding: .25rem 0;
+
+        &:focus,
+        &:valid {
+            outline: 0;
+            border-bottom-color: #7395AE;
+
+            &+.input-label {
+                color: #7395AE;
+                transform: translateY(-1.5rem);
+            }
+        }
+    }
+
+    .error-message {
+        color: black;
+        font-size: 0.75rem;
+        position: absolute;
+        bottom: -1rem;
+        left: 0;
+    }
+
+    .action {
+        margin-top: 2rem;
+    }
+
+    .action-button {
+        font: inherit;
+        font-size: 1.25rem;
+        padding: 1em;
+        width: 100%;
+        font-weight: 500;
+        background-color: #7395AE;
+        border-radius: 6px;
+        color: #FFF;
+        border: 0;
+
+        &:focus {
+            outline: 0;
+        }
+
+        &:hover {
+            background-color: #557A95;
+        }
+    }
+
+    .card-info {
+        padding: 1rem 1rem;
+        text-align: center;
+        font-size: .875rem;
+        color: #8597a3;
+
+        a {
+            display: block;
+            color: #ab3c3c;
+            text-decoration: none;
+        }
+    }
+}

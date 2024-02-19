@@ -1,0 +1,21 @@
+.UserPosts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    .seeBtn {
+      background-color: #557a95;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-bottom: 10px;
+      transition: background-color 0.3s ease;
+    }
+  
+    .seeBtn:hover {
+      background-color: #405c70;
+    }
+  }
+  
