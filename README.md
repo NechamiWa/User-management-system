@@ -17,7 +17,7 @@ This is a React-based user management application that allows users to view, add
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/react-user-management.git
+   git clone https://github.com/NechamiWa/react-user-management.git
    ```
 
 2. Navigate into the project directory:
